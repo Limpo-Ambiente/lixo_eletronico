@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon.png">
+    <title>lixo Eletrônico</title>
+    <link rel="stylesheet" href="lixo_eletronico.css">
+    <script src="https://kit.fontawesome.com/6bda94a8de.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        <!--order 1-->
+        <div class="logos">
+            <img class="logoBgWhite" src="logo.png" alt="">
+            <img class="logoBgBlack" src="logo2.png" alt="">
+        </div>
+
+        <!--order 2-->
+        <nav id="menu">
+            <ul id="imenu-list" class="menu-list">
+                <li><a href="/pag_kim/lixo_hospitalar.html">Sobre nós</a></li>
+                <li><a href="/curiosidades/curiosidades.html">Curiosidades</a></li>
+                <li><a href="#">Campanhas</a></li>
+            </ul>
+            <script>
+
+                var menuButton = document.getElementById("menu-btn");
+                var menu = document.getElementById("menu");
+
+                menu.style.transition("2s");
+
+                function showmenu() {
+                    if (menu.style.display === "none") {
+                        menu.style.display = "block";
+                    } else {
+                        menu.style.display = "none";
+                    }
+                };
+
+            </script>
+        </nav>
+
+        <!--order 3-->
+        <div class="dark_btn">
+            <input type="checkbox" name="#" id="toggle" class="toggle-btn">
+            <label for="toggle" class="toggle-label" id="change">
+                <i id="sun" class="fa-solid fa-cloud-sun"></i>
+                <i id="moon" class="fa-solid fa-moon"></i>
+            </label>
+
+            <script>
+                const toggleBtn = document.getElementById('toggle');
+                const body = document.body;
+
+                toggleBtn.addEventListener('click', function () {
+                    body.classList.toggle('dark')
+                });
+            </script>
+        </div>
+
+        <!--order 4-->
+        <button onclick="showmenu()" id="menu-btn"><i class="fa-solid fa-water"></i></button>
+    </header>
+
+
+    <main id="top">
+
+        <div class="text12">
+            <h2>Lixo Eletrônico: O que caracteriza esse tipo de resíduo?</h2>
+            <div class="text1">
+                <img src="eletronico.jpg" alt="" height="200px" width="350">
+
+                <p><strong>O lixo eletrônico</strong>Num mundo cada vez mais conectado, o avanço da tecnologia trouxe
+                    inúmeras comodidades à nossa vida cotidiana. No entanto, junto com os benefícios, também surgiu um
+                    desafio crescente: o lixo eletrônico. Desde smartphones e laptops até aparelhos domésticos e
+                    equipamentos industriais, a rápida obsolescência e a constante busca por novos dispositivos levam a
+                    um aumento significativo na quantidade de resíduos eletrônicos gerados a cada ano.
+                </p>
+                <div class="eletronico">
+                    <p>O lixo eletrônico, ou e-lixo, é composto por uma variedade de componentes tóxicos e materiais
+                        valiosos, como metais pesados, plásticos, vidro e circuitos eletrônicos. Quando descartados de
+                        forma inadequada, esses resíduos podem representar sérios riscos para o meio ambiente e para a
+                        saúde humana. A queima de e-lixo libera substâncias químicas perigosas na atmosfera, enquanto o
+                        descarte em aterros sanitários pode contaminar o solo e as águas subterrâneas.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="video1">
+                <iframe width="450" height="250" src="https://www.youtube.com/embed/00K4pnobsxs?si=cRd45Cn-Cn7A1wEy"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+
+
+            <h2>Qual a importância de descartar o lixo verde de maneira correta?</h2>
+            <div class="text2">
+                <div class="text4">
+                    <p>
+                        <strong>Diante desse cenário</strong>, é crucial promover práticas de descarte responsável de
+                        lixo eletrônico.Isso inclui a redução do consumo excessivo, a reutilização de dispositivos
+                        sempre que possível e o correto encaminhamento para reciclagem.Muitos materiais presentes nos
+                        eletrônicos podem ser reciclados e recuperados, reduzindo assim a necessidade de extração de
+                        recursos naturais e minimizando o impacto ambiental. O lixo eletrônico é um dos fluxos de
+                        resíduos de crescimento mais rápido no mundo.
+
+                        Cerca de 53,6 milhões de toneladas métricas de lixo eletrônico foram geradas globalmente em
+                        2019.
+
+                    </p>
+
+                </div>
+                <div class="text3">
+
+                    <p>
+                        Além disso, é fundamental conscientizar a população sobre os perigos do descarte inadequado de
+                        e-lixo e incentivar a participação em programas de coleta seletiva e pontos de reciclagem.
+                        Governos, empresas e a sociedade civil devem trabalhar juntos para desenvolver políticas e
+                        infraestruturas adequadas para lidar com o crescente volume de resíduos eletrônicos de forma
+                        segura e sustentável.
+
+                        Somente através de um esforço conjunto e um compromisso com a responsabilidade ambiental podemos
+                        enfrentar o desafio do lixo eletrônico e garantir um futuro mais limpo e saudável para as
+                        gerações futuras.
+
+                    </p>
+
+                    <img src="ele.jpg" width="350px" height="200px" alt="">
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+
+    <!-- <footer> -->
+    <footer>
+        <img src="logo_preto.png" alt="" height="120px">
+        <hr>
+        <div class="tudo">
+            <div class="voltar">
+                <h3>Volte para:</h3>
+                <a href="">Home</a>
+            </div>
+
+            <div class="referencias">
+                <h3>Referências da Página:</h3>
+                <a href="">Referência um</a>
+                <a href="">Referência dois</a>
+                <a href="">Referência três</a>
+                <a href="">Referência Quatro</a>
+            </div>
+
+            <div class="links_rapidos">
+                <h3>Links Rápidos</h3>
+                <a href="">Siga nosso linktree</a>
+                <a href="/pag_ind/main.html">Sobre nós</a>
+                <a href="#">Curiosidades</a>
+                <a href="#">Campanhas</a>
+            </div>
+
+
+        </div>
+
+        <p>&copy;2024 Desenvolvido por Limpo Ambiente</p>
+    </footer>
+
+</body>
+
+</html>
